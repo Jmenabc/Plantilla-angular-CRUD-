@@ -10,14 +10,28 @@
       <table class="table table-striped">
         <thead>
           <tr class="row">
-            <th class="col-sm-6">Título</th>
+            <th class="col-sm-2">Título</th>
+            <th class="col-sm-3">Estado</th>
+            <th class="col-sm-2">Fecha</th>
+            <th class="col-sm-1"><!--boton de editar--></th>
+            <th class="col-sm-1"><!--boton de eliminar--></th>
 
           </tr>
         </thead>
+
         <body>
           <tr *ngFor="let tarea of tareasList" class="row">
-            <td class="col-sm-6"><i>{{tarea.data.titulo}}</i>
+            <td class="col-sm-2"><i>{{tarea.data.titulo}}</i>
             </td>
+            <td class="col-sm-3"><i>{{tarea.data.estado}}</i>
+            </td>
+            <td class="col-sm-2"><i>{{tarea.data.fecha}}</i>
+            </td>
+            <td class="col-sm-1"><button>Editar</button>
+            </td>
+            <td class="col-sm-1"><button>Eliminar</button>
+            </td>
+
           </tr>
         </body>
       </table>
