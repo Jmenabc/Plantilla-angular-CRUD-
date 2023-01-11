@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TareaListaComponent } from './tarea-lista/tarea-lista.component';
+import { EdiTareaComponent } from './edi-tarea/edi-tarea.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TareaListaComponent,
+    EdiTareaComponent
   ],
   imports: [
     BrowserModule,
