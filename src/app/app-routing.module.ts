@@ -5,7 +5,7 @@ import { EdiTareaComponent } from './edi-tarea/edi-tarea.component';
 
 const routes: Routes = [
   { path: "tareas", component: TareaListaComponent },
-  { path: "tareas/:id/edit", component: EdiTareaComponent },
+  { path: "tareas/:idTarea/edit", component: EdiTareaComponent },
   { path: "tareas/new", component: EdiTareaComponent },
   { path: "**", redirectTo: "/tareas", pathMatch: "full" }
 ];
