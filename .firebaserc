@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mis-malditas-ventas": {
+      "hosting": {
+        "ejercicio-libro-076": [
+          "mis-malditas-ventas"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mis-malditas-ventas"
+  }
+}
